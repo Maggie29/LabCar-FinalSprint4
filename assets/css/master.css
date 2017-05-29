@@ -11,8 +11,8 @@ body{
 .bg-white{
   background: white;
 }
-.bg-yellow{
-
+.bg-grey{
+background-color: grey;
 }
 .f-white{
   color: #fff;
@@ -57,5 +57,7 @@ background-color: #f7b617;
 #map{
   height: 500px;
   top: 20px;
-
+}
+footer{
+  height: 500px;
 }
