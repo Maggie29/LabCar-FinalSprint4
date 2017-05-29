@@ -5,9 +5,23 @@
 }
 body{
   font-family: "Open Sans";
+  height: 100%;
+  background-color: #fff;
 }
 .bg-white{
   background: white;
+}
+.bg-yellow{
+  background-color: #f7b617;
+}
+.f-white{
+  color: #fff;
+}
+.m-top40{
+  margin-top: 40px;
+}
+.m-b40{
+  margin-bottom: 40px;
 }
 #navbar{
   height: 150px;
@@ -17,12 +31,16 @@ body{
   background-color: white
 }
 .bg-hero{
-  top: 0;
   background-image: url(../img/taxi.jpg);
   height: 800px;
-  width: 100%;
-  background-size: contain;
+  background-size: cover;
   background-repeat:no-repeat;
-
-
+  position: absolute;
+}
+#informacion{
+font-size: 1.2em;
+line-height: 1.2em;
+border-top: white;
+border-bottom: white;
+border-right: white;
 }
