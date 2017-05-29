@@ -38,9 +38,14 @@ body{
   position: absolute;
 }
 #informacion{
-font-size: 1.2em;
-line-height: 1.2em;
 border-top: white;
 border-bottom: white;
 border-right: white;
+}
+.bg-conductor{
+  background-image: url(../img/conduce.jpg);
+  height: 600px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
