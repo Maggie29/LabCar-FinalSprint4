@@ -34,7 +34,7 @@
   </section>
   <section id="hero" class=" col-xs-12 col-md-12 bg-hero image-hero">
   </section>
-  <section class="bg-yellow" id="informacion">
+  <section class="" id="informacion">
     <div class="container m-top">
             <div class="row">
               <div class="col-xs-12 col-md-4 f-white m-top40 m-b40">
@@ -53,7 +53,7 @@
     </div>
   </section>
   <section id="conductor" class="bg-conductor">
-    <div class="container">
+    <div class="container m-top40">
       <div class="row">
         <div class="col-md-4 col-md-offset-8">
           <div class="">
@@ -66,6 +66,34 @@
       </div>
     </div>
   </section>
+  <section id="tarifa">
+    <div class="container f-white">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="">
+            <h2>Tarifas</h2>
+            <p>Consulte las tarifas aqui.</p>
+          </div>
+          <div class="">
+            <span></span>
+            <input type="text" class="form-control" value="">
+          </div><br>
+          <div class="">
+            <span></span>
+            <input type="text" class="form-control" value="">
+          </div><br>
+          <div class="text-center">
+            <button type="button" class="btn btn-default">Trazar Ruta</button>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class=""  id="map">
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
 
 
@@ -73,5 +101,8 @@
     <script src="http://code.jquery.com/jquery.js"></script>
     <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="assets/js/app.js"></script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyByS7hS8jaa5WLbHvhPtPGMUMuABoWLoOI&callback=initMap">
+    </script>
   </body>
 </html>

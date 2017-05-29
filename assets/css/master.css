@@ -12,7 +12,7 @@ body{
   background: white;
 }
 .bg-yellow{
-  background-color: #f7b617;
+
 }
 .f-white{
   color: #fff;
@@ -41,6 +41,7 @@ body{
 border-top: white;
 border-bottom: white;
 border-right: white;
+background-color: #f7b617;
 }
 .bg-conductor{
   background-image: url(../img/conduce.jpg);
@@ -48,4 +49,13 @@ border-right: white;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+}
+#tarifa{
+  height: 600px;
+  background-color:#f7b617;
+}
+#map{
+  height: 500px;
+  top: 20px;
+
 }
