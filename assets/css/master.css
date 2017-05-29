@@ -1,0 +1,28 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
+}
+body{
+  font-family: "Open Sans";
+}
+.bg-white{
+  background: white;
+}
+#navbar{
+  height: 150px;
+  width: 100%;
+  padding: 20px 30px;
+  color: #606060;
+  background-color: white
+}
+.bg-hero{
+  top: 0;
+  background-image: url(../img/taxi.jpg);
+  height: 800px;
+  width: 100%;
+  background-size: contain;
+  background-repeat:no-repeat;
+
+
+}
