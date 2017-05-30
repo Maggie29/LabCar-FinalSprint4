@@ -51,13 +51,13 @@ background-color: #f7b617;
   background-position: center;
 }
 #tarifa{
-  height: 600px;
+  height: 500px;
   background-color:#f7b617;
 }
 #map{
-  height: 500px;
+  height: 400px;
   top: 20px;
 }
 footer{
-  height: 500px;
+  height: 400px;
 }
